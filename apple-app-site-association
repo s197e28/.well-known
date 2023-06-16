@@ -12,7 +12,7 @@
 				"84D38HPZJ2.dev.alphaapps.invoices"
 			],
 			"components": [{
-                  "/": "/buy/*",
+                  "/": "/apple/*",
                   "comment": "Matches any URL with a path that starts with /buy/."
                }
                 ]
