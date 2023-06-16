@@ -11,17 +11,10 @@
 				"84D38HPZJ2.com.alphaapps.invoices",
 				"84D38HPZJ2.dev.alphaapps.invoices"
 			],
-			"components": [
-                    {
-                        "/": "/reset/password",
-                        "?": { "property": "?*" },
-                        "#": { "anchor": "#*" },
-                        "exclude": false
-                    },
-                    {
-                        "/": "/excluded/content",
-                        "exclude": true
-                    }
+			"components": [{
+                  "/": "/buy/*",
+                  "comment": "Matches any URL with a path that starts with /buy/."
+               }
                 ]
         }]
     }
