@@ -11,7 +11,8 @@
 				"84D38HPZJ2.com.alphaapps.invoices",
 				"84D38HPZJ2.dev.alphaapps.invoices"
 			],
-			"paths": ["*"]
+			"paths": ["*"],
+			"components": ["/": "password/reset"]
         }]
     }
 }
