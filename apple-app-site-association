@@ -20,10 +20,6 @@
                         "/": "/password/confirm",
 			"?": { "token": "*" },
                         "exclude": false
-                    },
-                    {
-                        "/": "*",
-                        "exclude": true
                     }
                 ]
         }]
