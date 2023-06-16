@@ -4,5 +4,30 @@
             "84D38HPZJ2.com.alphaapps.invoices",
             "84D38HPZJ2.dev.alphaapps.invoices"
         ]
+    },
+    "applinks": {
+        "details": [{
+            "appIDs": [
+				"84D38HPZJ2.com.alphaapps.invoices",
+				"84D38HPZJ2.dev.alphaapps.invoices"
+			],
+			"appID": "84D38HPZJ2.dev.alphaapps.invoices",
+			"components": [
+			{
+                        "/": "/password/reset",
+			"?": { "token": "*" },
+                        "exclude": false
+                    },
+		    
+			{
+                        "/": "/password/confirm/*",
+                        "exclude": false
+                    },
+		    {
+                        "/": "*",
+                        "exclude": true
+                    }
+                ]
+        }]
     }
 }
