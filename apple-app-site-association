@@ -21,6 +21,10 @@
 			{
                         "/": "/password/confirm/*",
                         "exclude": false
+                    },
+		    {
+                        "/": "*",
+                        "exclude": true
                     }
                 ]
         }]
