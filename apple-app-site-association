@@ -15,7 +15,7 @@
         "appID": "84D38HPZJ2.dev.alphaapps.invoices",
         "components": [
           {
-            "/": "/password/confirm",
+            "/": "/password/reset",
             "?": { "token": "*" },
             "exclude": false
           },
